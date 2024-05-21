@@ -20,7 +20,7 @@ const Layout = () => {
                         <ul className={styles.headerNavList}>
                             <li>
                                 <NavLink to="/" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Scout Chat
+                                    Scout Talk
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
